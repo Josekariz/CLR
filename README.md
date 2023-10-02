@@ -1,6 +1,6 @@
 Sure, here's a README file with the instructions:
 
-```markdown
+
 # Collaborative Learning Repository
 
 Welcome to our collaborative learning repository! Here's how we'll structure our learning:
@@ -53,4 +53,4 @@ However, if you do modify existing files from the main repository and those file
 Remember, good communication and coordination can help avoid most merge conflicts. For instance, agreeing not to modify certain files or coordinating who works on what can go a long way in preventing conflicts.
 
 Happy coding! 🚀
-```
+
