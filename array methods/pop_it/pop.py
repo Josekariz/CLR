@@ -47,6 +47,10 @@ def can_you_pop_it(input_list):
         """
             if array has more than one value, remove the one value and return the removed value while modifying the array
         """
+
+        """
+            revise this to account for when there are 2 of the same elements last element in the list.
+        """
         
         last = input_list[-1]
         input_list.remove(last)
