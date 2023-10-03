@@ -22,6 +22,6 @@ def can_you_pop_it(input_list):
     Your code to use the can_you_pop_it function should go below this comment.
     """
 
-    # Your code to use the can_you_pop_it function should go here
 
-    input_list.pop()
+
+    
