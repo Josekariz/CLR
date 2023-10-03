@@ -18,52 +18,25 @@ def can_you_pop_it(input_list):
         >>> print("Updated list:", my_list)
         Popped item: 5
         Updated list: [1, 2, 3, 4]
-
-    Your code to use the can_you_pop_it function should go below this comment.
     """
-    
-    
     arr_size = len(input_list)
-    
 
     if arr_size == 0:
         """
-            raise an idex error if the array is empty
+        Raise an IndexError if the array is empty.
         """
         raise IndexError
-        
     elif arr_size == 1:
         """
-            if array has one value, remove the one value and return the removed value while modifying the array
+        If the array has one value, remove the one value and return the removed value while modifying the array.
         """
         last = input_list[-1]
-        input_list.remove(last)
+        del input_list[-1]
         return last
-
-        
-
     elif arr_size > 1:
-
         """
-            if array has more than one value, remove the one value and return the removed value while modifying the array
+        If the array has more than one value, remove the one value and return the removed value while modifying the array.
         """
-
-        """
-            revise this to account for when there are 2 of the same elements last element in the list.
-        """
-        
         last = input_list[-1]
-        input_list.remove(last)
+        del input_list[-1]
         return last
-    
-    
-
-    
-
-
-   
-        
-    
-
-
-    
