@@ -21,7 +21,45 @@ def can_you_pop_it(input_list):
 
     Your code to use the can_you_pop_it function should go below this comment.
     """
+    
+    
+    arr_size = len(input_list)
+    
 
+    if arr_size == 0:
+        """
+            raise an idex error if the array is empty
+        """
+        raise IndexError
+        
+    elif arr_size == 1:
+        """
+            if array has one value, remove the one value and return the removed value while modifying the array
+        """
+        last = input_list[-1]
+        input_list.remove(last)
+        return last
+
+        
+
+    elif arr_size > 1:
+
+        """
+            if array has more than one value, remove the one value and return the removed value while modifying the array
+        """
+        
+        last = input_list[-1]
+        input_list.remove(last)
+        return last
+    
+    
+
+    
+
+
+   
+        
+    
 
 
     
